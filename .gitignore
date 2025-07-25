@@ -1,0 +1,40 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Backup archives
+*.zip
+*.tar
+*.tar.gz
+backups/
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Node modules (if you ever add Node.js)
+node_modules/
+
+# XAMPP or local environment files
+xampp/
+xamppfiles/
+
+# System or cache directories
+__MACOSX/
+.cache/
+
+# Other common junk
+*.orig
+*.rej
