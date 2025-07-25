@@ -1,0 +1,46 @@
+GIT CHEAT SHEET - Splash Site
+
+1. Check Current Status
+   git status
+
+2. Add Changes
+   git add .
+   # or add a specific file
+   git add <filename>
+
+3. Commit Changes
+   git commit -m "Describe your change here"
+
+4. Push Changes to GitHub
+   git push
+
+5. Pull Latest Changes
+   git pull
+
+6. View Commit History
+   git log --oneline --graph --decorate
+
+7. Undo Changes (Before Commit)
+   # Revert a file to the last committed version
+   git checkout -- <filename>
+   # Unstage a file
+   git reset <filename>
+
+8. Roll Back to a Previous Commit
+   git log --oneline
+   git reset --hard <commit-id>
+
+9. See What Changed
+   git diff          # for unstaged changes
+   git diff --staged # for staged changes
+
+10. Create a New Branch
+    git checkout -b new-feature
+    git push -u origin new-feature
+
+Notes:
+- Run `git status` often to see what’s going on.
+- Use `git add .` to stage all changes.
+- Use `git commit -m "message"` to commit with a message.
+- Use `git push` to send commits to GitHub.
+- Use `git pull` to get the latest from GitHub.
