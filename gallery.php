@@ -51,14 +51,14 @@
     <header class="bg-gradient-to-r from-purple-600 to-yellow-400 text-white p-6">
         <div class="container mx-auto flex justify-between items-center">
             <div class="flex flex-col items-center">
-                <img src="assets/Spl@sh_balloon.png" alt="Splash Logo" class="mx-auto mb-0 w-56">
-                <p class="text-3xl font-semibold -mt-1 logo-subtitle">A sua casa creativa</p>
+                <img src="assets/splash_logo.png" alt="Splash Logo" class="mx-auto mb-0 w-56">
+                <p class="text-3xl font-semibold -mt-1 logo-subtitle">A SUA CASA CRIATIVA</p>
             </div>
             <nav class="space-x-4 text-lg font-semibold">
                 <a href="index.html">Início</a>
                 <a href="about.html">Sobre Nós</a>
                 <a href="services.html">Serviços</a>
-                <a href="contact.html">Contato</a>
+                <a href="cadastre.html">Cadastre-se</a>
                 <a href="gallery.php" class="active">Galeria</a>
             </nav>
         </div>

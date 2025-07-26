@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - Splash</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .logo-subtitle {
+            color: #6b21a8;
+        }
+        header.scrolled .logo-subtitle {
+            color: white !important;
+        }
+
+        /* Stylized @ list */
+        .about-list {
+            max-width: 40rem;
+            margin: 0 auto;
+            padding: 0;
+            list-style: none;
+            text-align: left;
+        }
+        .about-list li {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+        }
+        .about-icon {
+            font-family: 'Arial Black', sans-serif;
+            font-size: 1.5rem;
+        }
+        .icon-red {
+            color: #ff0000;
+        }
+        .icon-green {
+            color: #00cc44;
+        }
+        .icon-blue {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body class="bg-white font-sans leading-relaxed tracking-wide flex flex-col">
+    <header class="bg-gradient-to-r from-purple-600 to-yellow-400 text-white p-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex flex-col items-center">
+                <img src="assets/Spl@sh_balloon.png" alt="Splash Logo" class="mx-auto mb-0 w-56">
+                <p class="text-3xl font-semibold -mt-1 logo-subtitle">A sua casa creativa</p>
+            </div>
+            <nav class="space-x-4 text-lg font-semibold">
+                <a href="index.html">Início</a>
+                <a href="about.html">Sobre Nós</a>
+                <a href="services.html">Serviços</a>
+                <a href="contact.html">Contato</a>
+                <a href="gallery.php">Galeria</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section-fade p-12 text-center">
+        <h1 class="text-5xl font-bold text-purple-700 mb-8 text-center">Sobre Nós</h1>
+
+        <ul class="about-list">
+            <li>
+                <span class="about-icon icon-red">@</span>
+                A Splash é mais que um estúdio criativo — é a Casa Criativa de quem quer transformar visibilidade em oportunidade. 
+                Com sede no coração de São Paulo, somos especialistas em impulsionar a presença digital de criadores de conteúdo, talentos em ascensão e marcas visionárias.
+            </li>
+            <li>
+                <span class="about-icon icon-green">@</span>
+                Oferecemos consultorias personalizadas, workshops imersivos, produção de vídeos com estética profissional e estratégias de crescimento sob medida, 
+                tudo para tirar suas ideias do papel e colocá-las em cena — com criatividade, impacto e propósito.
+            </li>
+            <li>
+                <span class="about-icon icon-blue">@</span>
+                Se você já compartilha sua rotina nas redes, por que não monetizar esse talento? 
+                Aqui, transformamos autenticidade em carreira e presença digital em potência real.
+            </li>
+        </ul>
+    </section>
+                  
+    <footer class="bg-gray-900 text-gray-400 text-center p-4 mt-12">
+        &copy; 2025 Splash Assessoria, Ltda. Todos os direitos reservados.
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

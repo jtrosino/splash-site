@@ -1,0 +1,12 @@
+Start Apache from the XAMPP Control Panel.
+http://localhost/splash_site/
+
+
+
+to save changes to GitHub:
+
+git add .
+git commit -m "Description of changes"
+git push
+
+
