@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <style>
         .logo-subtitle {
-            color: #6b21a8;
+            color: white;
         }
         header.scrolled .logo-subtitle {
             color: white !important;
