@@ -181,7 +181,13 @@
     <p class="form-header text-gray-700">Preencha o formulário abaixo e entraremos em contato com você.</p>
     <div class="gradient-frame mt-6">
       <div class="form-card">
-        <form class="form-container text-left" id="cadastreForm" novalidate>
+<?php if (!empty($_GET['msg'])): ?>
+    <div class="form-response">
+        <?php echo htmlspecialchars($_GET['msg']); ?>
+    </div>
+<?php endif; ?>
+        <form class="form-container text-left" action="send_email.php" method="POST" novalidate>
+>
           <div class="form-grid">
             <div class="input-wrapper">
               <label for="nome" class="label-icon"><i class="fas fa-user"></i> Nome <span class="required-star">*</span></label>
