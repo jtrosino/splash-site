@@ -302,3 +302,7 @@ header.scrolled .logo-subtitle {
 .ssl-badge img {
     height: 18px;
 }
+
+.map-container iframe {
+    border: none;
+}

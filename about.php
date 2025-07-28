@@ -114,6 +114,20 @@
             </ul>
         </div>
     </section>
+
+    <section class="p-12 text-center bg-gray-100">
+    <h2 class="text-4xl font-bold mb-6 gradient-text">Onde Estamos</h2>
+    <p class="text-xl font-semibold mb-2 text-gray-800">Nosso Endereço</p>
+    <p class="text-lg mb-8 text-gray-700">
+        Alvarenga, 1507 - Butantã - São Paulo, SP, 05509-003 - Brasil
+    </p>
+    <div class="map-container mx-auto" style="max-width: 800px; height: 400px; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.2);">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9969684491325!2d-46.71454062391402!3d-23.568552361857794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5653a5b5abf5%3A0x6c94984fe3842842!2sR.%20Alvarenga%2C%201507%20-%20Butant%C3%A3%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005509-003%2C%20Brazil!5e0!3m2!1sen!2sus!4v1753726313161!5m2!1sen!2sus"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</section>
                   
     <?php include 'footer.php'; ?>
 
