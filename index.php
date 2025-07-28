@@ -105,9 +105,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="bg-gray-900 text-gray-400 text-center p-4 mt-12">
-    &copy; 2025 Splash Assessoria, Ltda. Todos os direitos reservados.
-  </footer>
+  <?php include 'footer.php'; ?>
 
   <script src="script.js"></script>
 </body>
