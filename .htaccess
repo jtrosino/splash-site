@@ -1,3 +1,11 @@
+# Enable rewrite engine
 RewriteEngine On
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://www.splashassessoria.com.br/$1 [R,L]
+
+# Force HTTPS (works even behind proxies)
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://www.splashassessoria.com.br%{REQUEST_URI} [L,R=301]
+
+# Optional: Enable HSTS (forces HTTPS for future visits)
+<IfModule mod_headers.c>
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+</IfModule>
