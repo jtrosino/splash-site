@@ -1,4 +1,5 @@
 <?php
+require __DIR__ . '/../config.php';
 require __DIR__ . '/phpmailer/src/PHPMailer.php';
 require __DIR__ . '/phpmailer/src/SMTP.php';
 require __DIR__ . '/phpmailer/src/Exception.php';
@@ -16,12 +17,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $mail = new PHPMailer(true);
     try {
         // SMTP settings (confirmed from test)
-        $mail->SMTPDebug = 0;  // Change to 2 for detailed debug output
+        $mail->SMTPDebug = 0;
         $mail->isSMTP();
         $mail->Host = 'email-ssl.com.br';
         $mail->SMTPAuth = true;
-        $mail->Username = 'splash@splashassessoria.com.br';
-        $mail->Password = 'sp1@5H@SS0r1a'; // <-- Insert your password here
+        $mail->Username = SMTP_USER;
+        $mail->Password = SMTP_PASS;
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
